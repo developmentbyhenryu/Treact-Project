@@ -640,6 +640,18 @@ header {
     border-right: 0px;
     border-bottom: 0px;
 }
+.plan__name--personal {
+    border-top-color: #6ED8CD;
+    border-top-width: 16px;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+}
+.plan__enterprise {
+    border-top-color: #F77878;
+    border-top-width: 16px;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+}
 .plan__business {
     border: solid #ffffff15;
 }
