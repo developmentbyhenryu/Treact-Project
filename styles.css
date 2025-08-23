@@ -1,4 +1,3 @@
-Try AI directly in your favorite apps … Use Gemini to generate drafts and refine content, plus get Gemini Pro with access to Google's next-gen AI for $19.99 $0 for 1 month
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
@@ -105,8 +104,8 @@ li{
 }
 .nav__link--anchor-primary{
     background-color: #6415FF;
-    padding: 16px 40px;
-    border-radius: 8px;
+    padding: 12px 32px;
+    border-radius: 32px;
     color: white;
     transition: all 300ms ease;
 }
@@ -163,7 +162,7 @@ li{
     color: #f7fafc;
     padding: 12px 32px;
     background: #6415ff;
-    border-radius: 500px;
+    border-radius: 80px;
     border: none;
 }
 
@@ -193,6 +192,8 @@ header .row {
     justify-content: space-between;
 }
 .header__info{
+    display: flex;
+    flex-direction: column;
     width: 40%;
 }
 .header__title{
@@ -200,7 +201,8 @@ header .row {
     height: 100%;
 }
 .header__image--wrapper{
-    width: 60%;
+    display: flex;
+    width: 40%;
 }
 .header__img {
     display: flex;
@@ -210,13 +212,15 @@ header .row {
 .btn {
     background-color: #6415ff;
     color: white;
-    padding: 10px 24px;
+    padding: 10px 16px;
     border-radius: 16px;
     border: none;
+    max-width: 25%;
 }
 input {
     height: 20px;
     width:50%;
+    display: flex;
 }
 /* 
 
@@ -228,41 +232,79 @@ FEATURES ↓
 #features {
     position: relative;
 }
-
+.feature{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 40px; 
+}
 #features .row__narrow {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.features__img{
+.features__heading {
+    font-weight: 700;
+    font-size: 48px;
+    margin: 8px;
+}
+.features__para{
+    text-align: center;
+    max-width: 500px;
+}
+.services__img{
     width: 100%;
     max-width: 100px;
+    margin-top: 5px;
+    height: 24px;
+    width: 32px;
+    padding: 0px;
     transition: all 300ms;
 }
-.features__list{
+.services__img--wrapper{
+    border: solid rgba(162, 162, 162, 0.15);
+    border-radius: 80px;
+    height: 40px;
+    width: 48px;
+}
+.services__list{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
 }
-.feature{
-    width: 33%;
+.services{
+    width: calc(100%/3);
     display: flex;
-    justify-content: center;
-    position: relative;
+    
 }
+.services__description {
+    display: flex;
+    flex-direction: column;
+}
+.services__description span {
+    font-weight: 700;
+    font-size: 24px;
+    padding: 8px 16px;
+}
+
 /* 
 
 QUALITY WORK ↓
 
 */
 
-
 #quality .row {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
+.quality__info{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.quality__img--wrapper{
+    width: 50%;
+}
 
 /* 
 
